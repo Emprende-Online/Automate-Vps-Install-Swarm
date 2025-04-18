@@ -106,7 +106,7 @@ show_message "Iniciando la instalación..."
 if [ $? -eq 0 ]; then
     show_success "Instalación completada exitosamente"
     
-    cleanup
+ #   cleanup
     
     echo -e "\n${GREEN}==================================================${NC}"
     echo -e "${GREEN}          Instalación finalizada                   ${NC}"
